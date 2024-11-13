@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1398</width>
+    <height>794</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1398</width>
+    <height>794</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1398</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Scheduler</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <property name="bottomMargin">
+     <number>5</number>
+    </property>
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTableWidget" name="timeTable1">
+          <property name="minimumSize">
+           <size>
+            <width>1091</width>
+            <height>383</height>
+           </size>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::EditTrigger::DoubleClicked|QAbstractItemView::EditTrigger::EditKeyPressed</set>
+          </property>
+          <property name="verticalScrollMode">
+           <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
+          </property>
+          <property name="horizontalScrollMode">
+           <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::PenStyle::SolidLine</enum>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>175</number>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>60</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>8:00</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>9:40</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>11:30</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>13:20</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>15:00</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>16:40</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>Mon</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Tue</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Wed</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Thu</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Fri</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Sat</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="timeTable2">
+          <property name="minimumSize">
+           <size>
+            <width>1091</width>
+            <height>383</height>
+           </size>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::EditTrigger::DoubleClicked|QAbstractItemView::EditTrigger::EditKeyPressed</set>
+          </property>
+          <property name="verticalScrollMode">
+           <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
+          </property>
+          <property name="horizontalScrollMode">
+           <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>175</number>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>60</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>8:00</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>9:40</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>11:30</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>13:20</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>15:00</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>16:40</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>Mon</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Tue</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Wed</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Thu</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Fri</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Sat</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QTreeWidget" name="treeWidget">
+          <property name="minimumSize">
+           <size>
+            <width>280</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="textElideMode">
+           <enum>Qt::TextElideMode::ElideLeft</enum>
+          </property>
+          <property name="autoExpandDelay">
+           <number>-1</number>
+          </property>
+          <column>
+           <property name="text">
+            <string>Group selection</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="buttonPushSetup">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Push to Google Calendar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
