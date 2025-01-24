@@ -13,5 +13,5 @@ In order to get a credentials file follow this steps:
 
 ## Run
 * Create virtual environment if needed `python -m venv venv`
-* Install requirements  `pip install requirements.txt -r`
+* Install requirements  `pip install -r requirements.txt`
 * Run app `python main.py`
