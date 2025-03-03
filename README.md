@@ -7,9 +7,10 @@ In order to get a credentials file follow this steps:
 2. Select Navigation Menu <kbd>&#9776;</kbd> > Solutions > All Products > Google Auth Platform [[direct link](https://console.cloud.google.com/auth)]
 3. Press <kbd>GET STARTED</kbd> and fill up information. In Audience section select External. (doesn't matter what you put in). Press <kbd>CREATE</kbd>
 4. You should be redirected to Google Auth Platform page. From here select <kbd>Clients</kbd> > <kbd>CREATE CLIENT</kbd> [[direct link](https://console.cloud.google.com/auth/clients/create)]. In Application type select `Desktop app`. Name it whatever you want. Press <kbd>CREATE</kbd>
-5. In `Actions` column press  <kbd>Download OAuth client</kbd> > <kbd>DOWNLOAD JSON</kbd>. Save it as `credentials.json` at `.creds/`. Full path should be `Scheduler/creds/credentials.json`
-6. Select Audience > <kbd>ADD USERS</kbd> > Type your email > <kbd>SAVE</kbd>
-7. Done
+5. In `Actions` column press <kbd>Download OAuth client</kbd> > <kbd>DOWNLOAD JSON</kbd>. Save it as `credentials.json` at `.creds/`. Full path should be `Scheduler/creds/credentials.json`
+6. In Data Access press <kbd>ADD OR REMOVE SCOPES</kbd> > Enter `https://www.googleapis.com/auth/calendar`. Enable it then press <kbd>UPDATE</kbd>. <kbd>SAVE</kbd> at the botton of the page.
+7. Select Audience > <kbd>ADD USERS</kbd> > Type your email > <kbd>SAVE</kbd>
+8. Done
 
 ## Run
 * Create virtual environment if needed `python -m venv venv`
